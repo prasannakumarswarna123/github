@@ -1,0 +1,21 @@
+{
+  "name": "gemini-chatbot-workspace",
+  "version": "1.0.0",
+  "description": "Full-stack Gemini LLM Chatbot with clear separation of frontend and backend folders",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js",
+    "migrate": "node backend/migrate.js",
+    "install:backend": "cd backend && npm install",
+    "postinstall": "cd backend && npm install"
+  },
+  "keywords": [
+    "gemini",
+    "chatbot",
+    "llm",
+    "express",
+    "vanilla-js"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
